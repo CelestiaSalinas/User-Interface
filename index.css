@@ -47,7 +47,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	padding:5px;
 }
 
 html, body {
@@ -64,8 +65,9 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 *{
-	border:1px red solid;
 	text-align: center;
+	margin-left:1%;
+	margin-right:1%;
 }
 
 h2{
@@ -85,6 +87,7 @@ nav a{
 .navigation{
 	display: inline-block;
 	vertical-align: top;
+	padding-top:20px;
 }
 
 .logo{
@@ -92,26 +95,29 @@ nav a{
 	width:20%;
 	padding-left:40px;
 	vertical-align: top;
+	padding-top:20px;
 }
 
 .headerimg{
 	display:inline-block;
 	width:50%;
+	padding-left:120px;
 }
 
 .header{
 	display:inline-block;
-	border: 1px blue solid;
+	padding-top:40px;
 }
 
 .innovation{
 	display:inline-block;
 	width:40%;
 	font-size:70px;
+	padding-left:70px;
 }
 
 .btn{
-	margin-left: 35%;
+	margin-left: 5%;
 }
 
 .sect1{
@@ -128,6 +134,10 @@ nav a{
 	display: inline-block;
 	width:50%;
 	vertical-align: top;
+}
+
+.middle-img{
+	padding-left:20px;
 }
 
 .sect2{
@@ -150,4 +160,14 @@ nav a{
 	display: inline-block;
 	width:30%;
 	vertical-align: top;
+}
+
+address{
+	text-align: left;
+	padding-bottom:100px;
+	padding-left:20px;
+}
+
+footer{
+	padding-bottom:200px;
 }
